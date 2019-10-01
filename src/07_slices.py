@@ -11,6 +11,11 @@ Use Python's slice syntax to achieve the following:
 
 a = [2, 4, 1, 7, 9, 6]
 
+
+
+
+
+
 # Output the second element: 4:
 print()
 
