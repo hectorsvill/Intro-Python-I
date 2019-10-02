@@ -22,8 +22,8 @@ and does the following:
 import sys
 import calendar
 from datetime import datetime
-yy = 2019
 
+yy = 2019
 mm = 0
 
 try: 
