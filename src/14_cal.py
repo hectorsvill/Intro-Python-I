@@ -22,3 +22,16 @@ and does the following:
 import sys
 import calendar
 from datetime import datetime
+yy = 2019
+
+mm = 0
+
+try: 
+  mm = int(input("Enter month: "))
+except ValueError:
+  mm = 10
+
+
+# print(mm)
+print(calendar.month(yy, mm))
+
