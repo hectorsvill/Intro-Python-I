@@ -29,8 +29,7 @@ mm = 0
 try: 
   mm = int(input("Enter month: "))
 except ValueError:
-  mm = 10
-
+  mm = datetime.now().month
 
 # print(mm)
 print(calendar.month(yy, mm))
